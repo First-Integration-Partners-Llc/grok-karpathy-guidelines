@@ -1,2 +1,13 @@
-# grok-karpathy-guidelines
-Grok Skill only: Improved Karpathy-inspired coding guidelines for Grok (based on Andrej Karpathy’s observations). Install to ~/.grok/skills/karpathy-guidelines/. From First Integration Partners / Menashe Borbely.
+# Grok Karpathy Guidelines Skill
+
+**This repository contains ONLY the Grok Skill version** of improved coding guidelines inspired by Andrej Karpathy’s observations on LLM coding pitfalls.
+
+It is **not** the original multica-ai / Claude / Cursor skill.  
+It is specifically formatted for Grok’s skill system (`~/.grok/skills/`).
+
+## Install
+
+```bash
+mkdir -p ~/.grok/skills/karpathy-guidelines
+curl -o ~/.grok/skills/karpathy-guidelines/SKILL.md \
+  https://raw.githubusercontent.com/menasheborbely/grok-karpathy-guidelines/main/SKILL.md
